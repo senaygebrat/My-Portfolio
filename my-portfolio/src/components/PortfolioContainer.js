@@ -5,7 +5,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
-export default function PortfolioContainer() {
+function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
@@ -33,3 +33,5 @@ return (
   </div>
   );
 }
+
+export default PortfolioContainer;
