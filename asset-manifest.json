@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/senaygebrat/My-Portfolio/static/css/main.bd7f7329.chunk.css",
-    "main.js": "/senaygebrat/My-Portfolio/static/js/main.6fa8fab0.chunk.js",
-    "main.js.map": "/senaygebrat/My-Portfolio/static/js/main.6fa8fab0.chunk.js.map",
-    "runtime-main.js": "/senaygebrat/My-Portfolio/static/js/runtime-main.1f83410c.js",
-    "runtime-main.js.map": "/senaygebrat/My-Portfolio/static/js/runtime-main.1f83410c.js.map",
-    "static/js/2.6048e2ca.chunk.js": "/senaygebrat/My-Portfolio/static/js/2.6048e2ca.chunk.js",
-    "static/js/2.6048e2ca.chunk.js.map": "/senaygebrat/My-Portfolio/static/js/2.6048e2ca.chunk.js.map",
-    "index.html": "/senaygebrat/My-Portfolio/index.html",
-    "static/css/main.bd7f7329.chunk.css.map": "/senaygebrat/My-Portfolio/static/css/main.bd7f7329.chunk.css.map",
-    "static/js/2.6048e2ca.chunk.js.LICENSE.txt": "/senaygebrat/My-Portfolio/static/js/2.6048e2ca.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/senaygebrat/My-Portfolio/static/media/eat-sleep-code.4046d481.jpg",
-    "static/media/senay.4dc9e652.png": "/senaygebrat/My-Portfolio/static/media/senay.4dc9e652.png"
+    "main.css": "/My-Portfolio/static/css/main.2532d77c.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.6fa8fab0.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.6fa8fab0.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.63ff5e68.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.63ff5e68.js.map",
+    "static/js/2.6048e2ca.chunk.js": "/My-Portfolio/static/js/2.6048e2ca.chunk.js",
+    "static/js/2.6048e2ca.chunk.js.map": "/My-Portfolio/static/js/2.6048e2ca.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "static/css/main.2532d77c.chunk.css.map": "/My-Portfolio/static/css/main.2532d77c.chunk.css.map",
+    "static/js/2.6048e2ca.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.6048e2ca.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/My-Portfolio/static/media/eat-sleep-code.4046d481.jpg",
+    "static/media/senay.4dc9e652.png": "/My-Portfolio/static/media/senay.4dc9e652.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f83410c.js",
+    "static/js/runtime-main.63ff5e68.js",
     "static/js/2.6048e2ca.chunk.js",
-    "static/css/main.bd7f7329.chunk.css",
+    "static/css/main.2532d77c.chunk.css",
     "static/js/main.6fa8fab0.chunk.js"
   ]
 }
