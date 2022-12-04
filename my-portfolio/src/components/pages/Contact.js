@@ -1,11 +1,23 @@
 import React from 'react'
+// import { validateEmail } from '../../utils/helper';
+
 
 function Contact() {
+
+  // const [email, setEmail] = useState('');
+  // const [name, setName] = useState('');
+  // const [message, setMessage] = useState('');
+  // const [errorMessage, setErrorMessage] = useState('');
+
+
+
+
   return (
     <div>
-      <h1>
+      <h1 className='contact-title'>
         Contact Me
       </h1>
+      <p>Hello</p>
     </div>
   )
 }

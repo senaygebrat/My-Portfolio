@@ -1,3 +1,7 @@
+/* //////////////////
+     NAVBAR
+///////////////////*/
+
 .nav {
   display: flex;
   justify-content: space-evenly;
@@ -10,6 +14,82 @@
   font-size: 24pt;
   color: blue;
 }
+
+
+
+
+/*////////////////// 
+    ABOUT ME 
+//////////////////*/
+
+.about-page {
+ 
+}
+
+.selfie {
+  width: 35vw;
+  /* margin-left: 50pt; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro {
+  color: green;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* margin-top: 75pt;
+  margin-left: 75pt; */
+  display: flex;
+  justify-content: center;
+}
+
+.summary {
+  display: flex;
+  margin-left: 50pt;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .box {
+  display: flex;
+  justify-content: center;
+} */
+
+
+/*////////////////// 
+    PORTFOLIO 
+//////////////////*/
+
+
+
+
+/*////////////////// 
+    RESUME 
+//////////////////*/
+
+.resume {
+  color: green;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 75pt;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*////////////////// 
+    CONTACT 
+//////////////////*/
+.contact-title{
+  color: green;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 75pt;
+  display: flex;
+}
+
+
+
+
+
 
 
 .App {
