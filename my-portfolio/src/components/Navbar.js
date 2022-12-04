@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <div className='header'>
+      <h1>Senay Gebrat</h1>
+      <ul className="nav nav-tabs">
       <li className="nav-item">
        <a
           href="#about"
@@ -34,7 +36,9 @@ function Navbar({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-    </ul>
+      </ul>
+    </div>
+
   );
 }
 

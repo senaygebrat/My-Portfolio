@@ -11,3 +11,6 @@ function Contact() {
 }
 
 export default Contact
+
+
+//add email, github, and phone number
