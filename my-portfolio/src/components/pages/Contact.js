@@ -14,7 +14,7 @@ function Contact() {
 
   return (
     <div>
-      <h1 className='contact-title'>
+      <h1 className='contact-title justify-content-center d-flex'>
         Contact Me
       </h1>
       <p>Hello</p>
