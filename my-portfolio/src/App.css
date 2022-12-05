@@ -12,7 +12,7 @@
 .header {
   text-align: center;
   font-size: 24pt;
-  color: blue;
+  color: white;
   background-image: url('./assets/images/eat-sleep-code.jpg');
 }
 
@@ -26,6 +26,8 @@
 //////////////////*/
 
 .about-page {
+  /* background-image: url('./assets/images/eat-sleep-code.jpg');
+  display: flex; */
  
 }
 
@@ -90,7 +92,13 @@
   display: flex;
 }
 
-
+/*////////////////// 
+    FOOTER 
+//////////////////*/
+.footer-p{
+  display: flex;
+  justify-content: center;
+}
 
 
 
