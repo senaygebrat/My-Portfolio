@@ -1,6 +1,6 @@
 # My-Portfolio
 ![preview](../My-Portfolio/my-portfolio/src/assets/images/screenshot.png)
-https://senaygebrat.github.io/My-Portfolio/#contact
+https://senaygebrat.github.io/My-Portfolio/
 
 ## About
 My personal portfolio page created using React.js. It contains a small description about myself and my interests, a tab for my projects, my resume, and a short contact form.
