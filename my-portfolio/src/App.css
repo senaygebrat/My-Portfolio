@@ -157,7 +157,7 @@
 .cont-pic{
   width: 35vw;
   text-align: center;
-  /* margin-left: 250pt; */
+  margin-left: 250pt;
   margin-top: 25pt;
   display: flex;
   justify-content: center;
