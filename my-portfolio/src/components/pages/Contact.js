@@ -1,83 +1,31 @@
-// import React from 'react';
-// import { validateEmail } from '../../utils/helper';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
+export const ContactUs = () => {
+  const form = useRef();
 
-// function Contact() {
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-//   // const [email, setEmail] = useState('');
-//   // const [name, setName] = useState('');
-//   // const [message, setMessage] = useState('');
-//   // const [errorMessage, setErrorMessage] = useState('');
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
-//   // const handleInputChange = (e) => {
-//   //   const { target } = e;
-//   //   const inputType = target.name;
-//   //   const inputValue = target.value;
+  return (
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
+  );
+};
 
-//   //   if (inputType === 'email') {
-//   //     setEmail(inputValue);
-//   //   } else if (inputType === 'name') {
-//   //     setName(inputValue);
-//   //   } else {
-//   //     setMessage(inputValue);
-//   //   }
-//   // };
-
-//   // const handleFormSubmit = (e) => {
-//   //   e.preventDefault();
-
-//   //   if (!validateEmail(email) || !userName) {
-//   //     setErrorMessage('Email or username is invalid');
-//   //     return;
-//   //   }
-//   //   if (!checkPassword(password)) {
-//   //     setErrorMessage(
-//   //       `Choose a more secure password for the account: ${nName}`
-//   //     );
-//   //     return;
-//   //   }
-//   //   alert(`Hello ${name}`);
-
-//   //   setName('');
-//   //   setName('');
-//   //   setEmail('');
-
-
-//     return (
-//       <div>
-//         <p>Hello {userName}</p>
-//         <form className="form">
-//           <input
-//             value={email}
-//             name="email"
-//             onChange={handleInputChange}
-//             type="email"
-//             placeholder="email"
-//           />
-//           <input
-//             value={name}
-//             name="name"
-//             onChange={handleInputChange}
-//             type="text"
-//             placeholder="name"
-//           />
-//           <input
-//             value={password}
-//             name="password"
-//             onChange={handleInputChange}
-//             type="password"
-//             placeholder="Password"
-//           />
-//           <button type="button" onClick={handleFormSubmit}>Submit</button>
-//         </form>
-//         {errorMessage && (
-//           <div>
-//             <p className="error-text">{errorMessage}</p>
-//           </div>
-//         )}
-//       </div>
-//     );
-//   }
-
-
-// export default Contact
+export default ContactUs
