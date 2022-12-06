@@ -116,10 +116,10 @@
 
 .res-pic{
   width: 35vw;
-  margin-left: 110pt;
+  /* margin-left: 250pt; */
   display: flex;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 
@@ -157,11 +157,11 @@
 .cont-pic{
   width: 35vw;
   text-align: center;
-  margin-left: 500pt;
+  /* margin-left: 250pt; */
   margin-top: 25pt;
   display: flex;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
 
 }
 
