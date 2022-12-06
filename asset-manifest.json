@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.52634eb4.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.99369902.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.99369902.chunk.js.map",
+    "main.css": "/My-Portfolio/static/css/main.8412c968.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.3937f97d.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.3937f97d.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.63ff5e68.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.63ff5e68.js.map",
     "static/js/2.3aa97a14.chunk.js": "/My-Portfolio/static/js/2.3aa97a14.chunk.js",
     "static/js/2.3aa97a14.chunk.js.map": "/My-Portfolio/static/js/2.3aa97a14.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "static/css/main.52634eb4.chunk.css.map": "/My-Portfolio/static/css/main.52634eb4.chunk.css.map",
+    "static/css/main.8412c968.chunk.css.map": "/My-Portfolio/static/css/main.8412c968.chunk.css.map",
     "static/js/2.3aa97a14.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.3aa97a14.chunk.js.LICENSE.txt",
     "static/media/Coding-Quiz.94611e0d.gif": "/My-Portfolio/static/media/Coding-Quiz.94611e0d.gif",
     "static/media/Password-Generator.54494c27.gif": "/My-Portfolio/static/media/Password-Generator.54494c27.gif",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.63ff5e68.js",
     "static/js/2.3aa97a14.chunk.js",
-    "static/css/main.52634eb4.chunk.css",
-    "static/js/main.99369902.chunk.js"
+    "static/css/main.8412c968.chunk.css",
+    "static/js/main.3937f97d.chunk.js"
   ]
 }
