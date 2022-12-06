@@ -9,6 +9,7 @@ import horiseon from "../../assets/images/horiseon.png";
 
 function Portfolio() {
   return (
+    <div className='pjs'>
     <div className='container'>
       <div className='row d-flex justify-content-between'>
       <Card name={"Scheduler"} image = {workday} github = {"https://github.com/senaygebrat/Work-Day-Scheduler"} deployed = {"https://senaygebrat.github.io/Work-Day-Scheduler/"} />
@@ -18,6 +19,7 @@ function Portfolio() {
       <Card name={"Coding Quiz"} image = {codingQ} github = {"https://github.com/senaygebrat/Code-Quiz"} deployed = {"https://senaygebrat.github.io/Code-Quiz/"} />
       <Card name={"Horiseon"} image = {horiseon} github = {"https://github.com/senaygebrat/Horiseon-access"} deployed = {"https://senaygebrat.github.io/Horiseon-access//"} />
       </div>
+    </div>
     </div>
   )
 }

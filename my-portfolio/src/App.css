@@ -1,4 +1,12 @@
 /* //////////////////
+     ROOT
+///////////////////*/
+.content-color{
+  background-color: gray;
+}
+
+
+/* //////////////////
      NAVBAR
 ///////////////////*/
 
@@ -14,14 +22,8 @@
   font-size: 24pt;
   color: white;
   background-color: transparent;
-  background-image: url('../src/assets/images/eat-sleep-code.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: scale(0.4);
+  background-color: black;
 }
-
-
-
 
 
 
@@ -29,7 +31,9 @@
     ABOUT ME 
 //////////////////*/
 
-
+.about-page{
+  height: 700pt;
+}
 
 .selfie {
   width: 35vw;
@@ -40,18 +44,19 @@
 }
 
 .intro {
-  color: blue;
+  color: white;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  /* margin-top: 75pt;
-  margin-left: 75pt; */
   display: flex;
   justify-content: center;
 }
 
 .summary {
   display: flex;
-  margin-left: 50pt;
+  margin-left: 150pt;
+  margin-right: 150pt;
   font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 18pt;
 }
 
 .custom-box {
@@ -64,15 +69,33 @@
   background-image: none;
 }
 
+
+
 /*////////////////// 
     PORTFOLIO 
 //////////////////*/
+
+
 .movie{
   width: 100%;
   height: 20vh;
   object-fit: cover;
 }
 
+.pbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container{
+  height: 700pt;
+}
+
+.pjs{
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 /*////////////////// 
@@ -80,23 +103,66 @@
 //////////////////*/
 
 .resume {
-  color: green;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 75pt;
   display: flex;
   justify-content: center;
+  height: 700pt;
+  font-size: 50pt;
 }
 
+.res-space {
+  margin-top: 150pt;
+}
+
+.res-pic{
+  width: 35vw;
+  margin-left: 110pt;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 
 /*////////////////// 
     CONTACT 
 //////////////////*/
+.contact-page{
+  background-color: gray;
+}
+
 .contact-title{
   color: blue;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 75pt;
   display: flex;
+  justify-content: center;
+  font-size: 62pt;
+}
+
+.contact-info{
+  height: 700pt;
+}
+
+.msg-boxes{
+  margin-top: 100pt;
+  justify-content: center;  
+  display: flex;
+  flex-direction: row;
+}
+
+.cont-pers{
+ color: white;  
+  font:bold;
+}
+
+.cont-pic{
+  width: 35vw;
+  text-align: center;
+  margin-left: 500pt;
+  margin-top: 25pt;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
 }
 
 /*////////////////// 
@@ -105,47 +171,11 @@
 .footer-p{
   display: flex;
   justify-content: center;
+  background-color: black;
+  height: 100px;
 }
 
 
 
 
 
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
