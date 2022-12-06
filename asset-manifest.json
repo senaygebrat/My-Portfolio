@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.44c163d6.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.84d7d2dc.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.84d7d2dc.chunk.js.map",
+    "main.css": "/My-Portfolio/static/css/main.52634eb4.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.99369902.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.99369902.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.63ff5e68.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.63ff5e68.js.map",
     "static/js/2.3aa97a14.chunk.js": "/My-Portfolio/static/js/2.3aa97a14.chunk.js",
     "static/js/2.3aa97a14.chunk.js.map": "/My-Portfolio/static/js/2.3aa97a14.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "static/css/main.44c163d6.chunk.css.map": "/My-Portfolio/static/css/main.44c163d6.chunk.css.map",
+    "static/css/main.52634eb4.chunk.css.map": "/My-Portfolio/static/css/main.52634eb4.chunk.css.map",
     "static/js/2.3aa97a14.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.3aa97a14.chunk.js.LICENSE.txt",
     "static/media/Coding-Quiz.94611e0d.gif": "/My-Portfolio/static/media/Coding-Quiz.94611e0d.gif",
     "static/media/Password-Generator.54494c27.gif": "/My-Portfolio/static/media/Password-Generator.54494c27.gif",
     "static/media/Weather-Dashboard.94d47b6a.gif": "/My-Portfolio/static/media/Weather-Dashboard.94d47b6a.gif",
     "static/media/Work-Day-Scheduler.e917c348.gif": "/My-Portfolio/static/media/Work-Day-Scheduler.e917c348.gif",
-    "static/media/App.css": "/My-Portfolio/static/media/eat-sleep-code.4046d481.jpg",
+    "static/media/contact-image.578807ab.jpg": "/My-Portfolio/static/media/contact-image.578807ab.jpg",
+    "static/media/email.d2280509.jpg": "/My-Portfolio/static/media/email.d2280509.jpg",
     "static/media/horiseon.ed94487b.png": "/My-Portfolio/static/media/horiseon.ed94487b.png",
     "static/media/mickey-n-friends.795efc10.gif": "/My-Portfolio/static/media/mickey-n-friends.795efc10.gif",
+    "static/media/resume.fe0359eb.png": "/My-Portfolio/static/media/resume.fe0359eb.png",
     "static/media/senay.4dc9e652.png": "/My-Portfolio/static/media/senay.4dc9e652.png"
   },
   "entrypoints": [
     "static/js/runtime-main.63ff5e68.js",
     "static/js/2.3aa97a14.chunk.js",
-    "static/css/main.44c163d6.chunk.css",
-    "static/js/main.84d7d2dc.chunk.js"
+    "static/css/main.52634eb4.chunk.css",
+    "static/js/main.99369902.chunk.js"
   ]
 }
