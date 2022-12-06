@@ -5,7 +5,6 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Footer from './Footer';
-// import banner from '../assets/images/eat-sleep-code.jpg';
 
 function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
