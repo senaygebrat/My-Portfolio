@@ -1,6 +1,5 @@
 # My-Portfolio
-
-![Site Preview](../My-Portfolio/my-portfolio/src/assets/images/screenshot.png)
+![preview](../My-Portfolio/my-portfolio/src/assets/images/screenshot.png)
 https://senaygebrat.github.io/My-Portfolio/#contact
 
 ## About
