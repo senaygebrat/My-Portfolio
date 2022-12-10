@@ -9,10 +9,12 @@ function About() {
       <h2 className='intro'>
       <Typed
       strings={[
-            "A Little About Me",
+            "Welcome to My Page!",
+            "Feel Free To Explore My Tabs",
+            "For Now, a Little About Me...",
           ]}
           typeSpeed={50}
-          backSpeed={100}
+          backSpeed={50}
           loop
         />
       </h2>
